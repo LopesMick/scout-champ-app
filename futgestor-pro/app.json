@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "FutGestor Pro",
+    "slug": "futgestor-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "futgestorpro",
+    "android": {
+      "package": "com.futgestorpro.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.futgestorpro.app"
+    },
+    "plugins": ["expo-status-bar"]
+  }
+}

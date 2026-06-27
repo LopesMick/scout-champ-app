@@ -16,10 +16,14 @@ export default function ElencoScreen({ navigation }) {
   const [emPartida, setEmPartida] = useState(false);
 
   useEffect(() => {
-    Alert.alert(
-      "Sincronizacao",
-      "Dados do plantel sincronizados com o servidor!"
-    );
+    const timer = setTimeout(() => {
+      Alert.alert(
+        "Sincronizacao",
+        "Dados do plantel sincronizados com o servidor!"
+      );
+    }, 500);
+
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {

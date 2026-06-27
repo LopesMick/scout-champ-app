@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="Tela de elenco em partida oficial">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#052e16" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="390" height="844" rx="28" fill="#052e16"/>
+  <rect x="0" y="0" width="390" height="844" rx="28" fill="#15803d"/>
+  <path d="M0 184 C84 150 150 220 232 174 C300 136 346 144 390 124 L390 844 L0 844 Z" fill="#166534" opacity="0.48"/>
+  <rect x="22" y="44" width="346" height="82" rx="16" fill="#16a34a"/>
+  <text x="38" y="78" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">FutGestor Pro</text>
+  <text x="38" y="105" fill="#dcfce7" font-family="Arial, sans-serif" font-size="14">Modulo de scout tecnico</text>
+
+  <rect x="22" y="146" width="346" height="118" rx="16" fill="#22c55e" filter="url(#shadow)"/>
+  <text x="40" y="178" fill="#dcfce7" font-family="Arial, sans-serif" font-size="13" font-weight="700">STATUS DO ELENCO</text>
+  <text x="40" y="214" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Em Partida Oficial</text>
+  <text x="40" y="242" fill="#ecfdf5" font-family="Arial, sans-serif" font-size="14">emPartida: Sim</text>
+
+  <rect x="22" y="282" width="346" height="52" rx="13" fill="#dc2626"/>
+  <text x="195" y="315" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="700">Voltar para Treinamento</text>
+
+  <text x="22" y="376" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Plantel em campo</text>
+
+  <g filter="url(#shadow)">
+    <rect x="22" y="398" width="346" height="78" rx="14" fill="#f8fafc"/>
+    <circle cx="62" cy="437" r="23" fill="#dcfce7"/>
+    <text x="62" y="445" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="18" font-weight="700">LA</text>
+    <text x="100" y="427" fill="#0f172a" font-family="Arial, sans-serif" font-size="17" font-weight="700">Lucas Andrade</text>
+    <text x="100" y="453" fill="#475569" font-family="Arial, sans-serif" font-size="14">Atacante - 12 gols</text>
+    <text x="342" y="444" text-anchor="end" fill="#16a34a" font-family="Arial, sans-serif" font-size="20" font-weight="700">&gt;</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="22" y="492" width="346" height="78" rx="14" fill="#f8fafc"/>
+    <circle cx="62" cy="531" r="23" fill="#dbeafe"/>
+    <text x="62" y="539" text-anchor="middle" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="18" font-weight="700">RL</text>
+    <text x="100" y="521" fill="#0f172a" font-family="Arial, sans-serif" font-size="17" font-weight="700">Rafael Lima</text>
+    <text x="100" y="547" fill="#475569" font-family="Arial, sans-serif" font-size="14">Meio-campo - 7 gols</text>
+    <text x="342" y="538" text-anchor="end" fill="#16a34a" font-family="Arial, sans-serif" font-size="20" font-weight="700">&gt;</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="22" y="586" width="346" height="78" rx="14" fill="#f8fafc"/>
+    <circle cx="62" cy="625" r="23" fill="#fee2e2"/>
+    <text x="62" y="633" text-anchor="middle" fill="#b91c1c" font-family="Arial, sans-serif" font-size="18" font-weight="700">BS</text>
+    <text x="100" y="615" fill="#0f172a" font-family="Arial, sans-serif" font-size="17" font-weight="700">Bruno Santos</text>
+    <text x="100" y="641" fill="#475569" font-family="Arial, sans-serif" font-size="14">Zagueiro - 2 gols</text>
+    <text x="342" y="632" text-anchor="end" fill="#16a34a" font-family="Arial, sans-serif" font-size="20" font-weight="700">&gt;</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="22" y="680" width="346" height="78" rx="14" fill="#f8fafc"/>
+    <circle cx="62" cy="719" r="23" fill="#fef9c3"/>
+    <text x="62" y="727" text-anchor="middle" fill="#a16207" font-family="Arial, sans-serif" font-size="18" font-weight="700">DM</text>
+    <text x="100" y="709" fill="#0f172a" font-family="Arial, sans-serif" font-size="17" font-weight="700">Diego Martins</text>
+    <text x="100" y="735" fill="#475569" font-family="Arial, sans-serif" font-size="14">Lateral - 4 gols</text>
+    <text x="342" y="726" text-anchor="end" fill="#16a34a" font-family="Arial, sans-serif" font-size="20" font-weight="700">&gt;</text>
+  </g>
+</svg>
