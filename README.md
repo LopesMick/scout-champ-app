@@ -1,32 +1,25 @@
 # FutGestor Pro
 
-FutGestor Pro e um prototipo mobile de scout tecnico para futebol. O app foi
-desenvolvido em React Native com Expo e usa navegacao por Stack para alternar
-entre a tela de elenco e a tela de detalhes do jogador selecionado.
+FutGestor Pro e um prototipo mobile de scout tecnico para futebol. O aplicativo
+foi desenvolvido em React Native com Expo e utiliza React Navigation para
+alternar entre a tela de elenco e a tela de detalhes do atleta selecionado.
 
 ## Telas do aplicativo
 
-### Elenco em treinamento
-
-![Tela de elenco em treinamento](docs/screenshots/elenco-treinamento.svg)
-
-### Elenco em partida oficial
-
-![Tela de elenco em partida oficial](docs/screenshots/elenco-partida.svg)
-
-### Detalhes do jogador
-
-![Tela de detalhes do jogador](docs/screenshots/detalhes-jogador.svg)
+| Elenco em treinamento | Elenco em partida oficial | Detalhes do jogador |
+| --- | --- | --- |
+| ![Tela de elenco em treinamento](entrega-futgestor-pro/docs/screenshots/elenco-treinamento.svg) | ![Tela de elenco em partida oficial](entrega-futgestor-pro/docs/screenshots/elenco-partida.svg) | ![Tela de detalhes do jogador](entrega-futgestor-pro/docs/screenshots/detalhes-jogador.svg) |
 
 ## Funcionalidades
 
 - Visualizacao do elenco principal do clube.
-- Controle de status do time entre `Em Treinamento` e `Em Partida Oficial`.
-- Alteracao visual da tela conforme o estado atual do elenco.
-- Lista de jogadores com posicao, gols e resumo de desempenho.
-- Tela de detalhes com dados completos do atleta selecionado.
-- Registro no console sempre que o status do elenco muda.
+- Alternancia do status do time entre `Em Treinamento` e `Em Partida Oficial`.
+- Mudanca visual da interface conforme o status atual do elenco.
+- Lista de jogadores com nome, posicao e gols.
+- Tela de detalhes com informacoes completas do atleta.
+- Passagem de dados entre telas usando parametros de navegacao.
 - Alerta inicial simulando a sincronizacao dos dados do plantel.
+- Registro no console sempre que o status do elenco e alterado.
 
 ## Tecnologias utilizadas
 
@@ -48,7 +41,7 @@ entre a tela de elenco e a tela de detalhes do jogador selecionado.
 - Uso de `TouchableOpacity` como botao de alternancia.
 - Estilizacao condicional para os estados de treino e partida.
 
-## Estrutura do projeto
+## Estrutura principal
 
 ```text
 entrega-futgestor-pro/
@@ -68,6 +61,12 @@ entrega-futgestor-pro/
 ```
 
 ## Como executar
+
+Entre na pasta do aplicativo:
+
+```bash
+cd entrega-futgestor-pro
+```
 
 Instale as dependencias:
 
@@ -92,5 +91,5 @@ atualize o aplicativo Expo Go no dispositivo ou emulador e execute novamente.
 
 ## Observacao de entrega
 
-Para enviar o projeto no GitHub, mantenha o codigo fonte e nao inclua as pastas
+Para envio no GitHub, mantenha o codigo fonte do projeto e nao inclua as pastas
 `node_modules` e `.expo`.
